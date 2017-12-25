@@ -154,7 +154,7 @@
              * When the input got changed
              */
             onChange() {
-              this.$emit('change', this.autocompleteText);
+               this.$emit('change', this.autocompleteText, this.id);
             },
 
             /**
