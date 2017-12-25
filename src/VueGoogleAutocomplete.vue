@@ -153,8 +153,8 @@
             /**
              * When the input got changed
              */
-            onChange() {
-              this.$emit('change', this.autocompleteText);
+            onChange(event) {
+              this.$emit('change', this.autocompleteText,event);
             },
 
             /**
